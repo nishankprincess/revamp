@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReVamp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ReVamp</h1>
+    </header>
+    <nav>
+    <button id="about-us-button">About Us</button>
+    <button id="recycle-center-button">Nearest Recycle Center</button>
+    <button id="interactive-content-button">Interactive audio and video</button>
+    <button id="latest-news-button">Latest news and facts</button>
+    <button id="contact-us-button">Contact Us</button>
+   </nav>
+    <div id="main-content" class="main-content">
+        <h2>About Us</h2>
+        <table>
+            <tr>
+                <td><img src="logo.png" alt="Logo"></td>
+                <td>
+                    <h3>We Plan To:</h3>
+                    <p>Collaborate with companies from an organization and sell the items that our warehouse creates after using those recycled trash.<br>
+                    After preparing the recycled materials, we send it off to companies or people that may want it.<br>
+                    Help solve the problem of the growing trash happening in this world. We would like to recycle this trash into materials that make up our daily lives.<br>
+                    Plastic would be turned into furniture, shoes, and toys.<br>
+                    Paper would be turned into toilet paper, napkins, cardboard, tissue paper, and handbags.<br>
+                    Metal would be turned into home appliances, furniture, automobiles, hospital equipment.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="recycle-center" class="web-part">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1A1-XuyZERY84DUtp21JFLDfN4HA&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe>
+    </div>
+    <div id="interactive-content" class="web-part">
+        <p>Stay tuned for our interactive audio/video contents to be available</p>
+    </div>
+    <div id="latest-news" class="web-part">
+        <p>We are excited to announce our latest and greatest technology for recycling and revamping household wastes and industry wastes.<br> For more details stay tuned!</p>
+    </div>
+    <div id="contact-form" class="web-part">
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="text" id="mobile" name="mobile"><br>
+            <label for="question">Questions:</label><br>
+            <textarea id="question" name="question"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
